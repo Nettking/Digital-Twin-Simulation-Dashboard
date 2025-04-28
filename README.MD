@@ -38,20 +38,27 @@ A **Streamlit**-based application that simulates real-time sensor data (camera e
    git clone https://github.com/yourusername/dt-simulation-dashboard.git
    cd dt-simulation-dashboard
 2. **Install dependencies**
+```bash
 pip install -r requirements.txt
 
 3. **Run the app**
+```bash
 streamlit run app.py
 
-4. **Open your browser** at http://localhost:8501
+4. **Open your browser** at 
+```bash
+http://localhost:8501
 
 ## Docker Deployment
 1. **Build the Docker image**
+```bash
 docker build -t dt-dashboard .
+```bash
 2. **Run the container**
 docker run -p 8501:8501 dt-dashboard
 
 3. **Browse to** 
+```bash
 http://localhost:8501
 
 ## License
