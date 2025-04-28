@@ -55,7 +55,6 @@ http://localhost:8501
 ```bash
 docker build -t dt-dashboard .
 ```
-```bash
 2. **Run the container**
 ```bash
 docker run -p 8501:8501 dt-dashboard
