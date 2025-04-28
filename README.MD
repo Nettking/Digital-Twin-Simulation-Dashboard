@@ -17,13 +17,13 @@ A **Streamlit**-based application that simulates real-time sensor data (camera e
 - **Dockerized** for zero-install deployment  
 
 ## Project Structure
-├── app.py # Main Streamlit dashboard 
-├── sensor_simulator.py # Fake data generators for camera, vibration, mic 
-├── data_ingestion.py # Combines sensor outputs into events 
-├── anomaly_detection.py # Threshold-based detection logic 
-├── requirements.txt # Python dependencies 
-├── Dockerfile # Container setup for Streamlit app 
-
+- `app.py`                  – Main Streamlit dashboard  
+- `sensor_simulator.py`     – Fake data generators for camera, vibration, mic  
+- `data_ingestion.py`       – Combines sensor outputs into events  
+- `anomaly_detection.py`    – Threshold-based detection logic  
+- `requirements.txt`        – Python dependencies  
+- `Dockerfile`              – Container setup for Streamlit app  
+- `README.md`               – This file  
 
 ## Prerequisites
 
