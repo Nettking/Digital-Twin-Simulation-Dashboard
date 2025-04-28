@@ -34,10 +34,10 @@ A **Streamlit**-based application that simulates real-time sensor data (camera e
 ## Local Installation & Usage
 
 1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/dt-simulation-dashboard.git
-   cd dt-simulation-dashboard
-   ```
+```bash
+git clone https://github.com/yourusername/dt-simulation-dashboard.git
+cd dt-simulation-dashboard
+```
 
 2. **Install dependencies**
 ```bash
